@@ -1,0 +1,116 @@
+/*
+  v0.16
+*/
+.rxc
+{
+  font-family:Arial,Verdana,Tahoma,sans-serif;
+  font-size:13px;
+  padding:7px;
+  clear:both;
+  overflow:hidden;
+}
+.rxc *
+{
+  padding:0;
+  margin:0;
+  line-height:130% !important;
+}
+.rxc p
+{
+  padding:0;
+  margin:0 !important;
+}
+.rxc a
+{
+  color:#336390;
+  text-decoration:none;
+}
+.rxc a:hover
+{
+  color:black;
+  text-decoration:underline;
+}
+#rxposter
+{
+  float:left;
+  border:0;
+  margin-right:7px;
+  margin-bottom:7px;
+  display:inline;
+}
+#rxtitlero
+{
+  font-size:16px !important;
+  font-weight:bold !important;
+  margin:0 !important;
+  padding:0 !important;
+  padding-bottom:5px !important;
+  float:none !important;
+}
+#rxtitleen
+{
+  font-size:16px !important;
+}
+#rxcast
+{
+}
+#rxdirectors
+{
+}
+#rxwriters
+{
+}
+#rxgenres
+{
+}
+#rxruntime
+{
+}
+#rxdescription
+{
+  padding-top:5px;
+}
+#rxtrailer
+{
+  padding-top:3px;
+}
+
+/*
+  "vertical" theme specific
+*/
+.rxvertical
+{
+  margin-left:7px;
+  margin-bottom:5px;
+  float:right;
+}
+.rxvertical #rxposter
+{
+  float:none !important;
+  display:block !important;
+  border:0;
+  margin-left:auto !important;
+  margin-right:auto !important;
+  margin-bottom:7px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:5px;
+  border-bottom:1px solid black;
+}
+.rxvertical .rxc p
+{
+  padding-bottom:5px;
+}
+/*
+  "mini" theme specific
+*/
+.rxmini #rxtitlero
+{
+  padding-bottom:0 !important;
+  display:inline !important;
+}
+.rxmini p
+{
+  display:inline !important;
+  padding-left:10px !important;
+}
